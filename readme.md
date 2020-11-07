@@ -20,9 +20,12 @@ Navegue até o diretório `/src`, instale o gerenciador de pacotes do Node.js e 
 Os seguintes prefixos foram usados e podem ser subsituídos através de um **search and replace**:
 
 - Template Plugin (Nome do plugin)
-- template-plugin (text domain e nome dos arquivos)
-- TP_ (prefixo usado nas constantes de Url e diretório do plugin)
-- tp_ (prefixo usado nas funções)
+- template-plugin (nome dos arquivos e usado na url do repositório)
+- text-domain (text domain)
+- PREFIX_ (prefixo usado nas constantes de Url e diretório do plugin, além das classes)
+- prefix_ (prefixo usado nas funções)
+
+##### Obs: também é necessário renomear os arquivos .js e .css
 
 ### Grunt
 

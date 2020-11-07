@@ -1,7 +1,7 @@
 <?php
 
 /**
- * TP_Post_Type class.
+ * PREFIX_Post_Type class.
  *
  * Built Custom Post Types.
  *
@@ -10,7 +10,7 @@
  * @author   WPBrasil
  * @version  2.1.4
  */
-class TP_Post_Type
+class PREFIX_Post_Type
 {
 
     /**
@@ -70,20 +70,20 @@ class TP_Post_Type
     protected function labels()
     {
         $default = array(
-            'name'               => sprintf(__('%ss', 'template-plugin'), $this->name),
-            'singular_name'      => sprintf(__('%s', 'template-plugin'), $this->name),
-            'view_item'          => sprintf(__('View %s', 'template-plugin'), $this->name),
-            'edit_item'          => sprintf(__('Edit %s', 'template-plugin'), $this->name),
-            'search_items'       => sprintf(__('Search %s', 'template-plugin'), $this->name),
-            'update_item'        => sprintf(__('Update %s', 'template-plugin'), $this->name),
-            'parent_item_colon'  => sprintf(__('Parent %s:', 'template-plugin'), $this->name),
-            'menu_name'          => sprintf(__('%ss', 'template-plugin'), $this->name),
-            'add_new'            => __('Add New', 'template-plugin'),
-            'add_new_item'       => sprintf(__('Add New %s', 'template-plugin'), $this->name),
-            'new_item'           => sprintf(__('New %s', 'template-plugin'), $this->name),
-            'all_items'          => sprintf(__('All %ss', 'template-plugin'), $this->name),
-            'not_found'          => sprintf(__('No %s found', 'template-plugin'), $this->name),
-            'not_found_in_trash' => sprintf(__('No %s found in Trash', 'template-plugin'), $this->name)
+            'name'               => sprintf(__('%ss', 'text-domain'), $this->name),
+            'singular_name'      => sprintf(__('%s', 'text-domain'), $this->name),
+            'view_item'          => sprintf(__('View %s', 'text-domain'), $this->name),
+            'edit_item'          => sprintf(__('Edit %s', 'text-domain'), $this->name),
+            'search_items'       => sprintf(__('Search %s', 'text-domain'), $this->name),
+            'update_item'        => sprintf(__('Update %s', 'text-domain'), $this->name),
+            'parent_item_colon'  => sprintf(__('Parent %s:', 'text-domain'), $this->name),
+            'menu_name'          => sprintf(__('%ss', 'text-domain'), $this->name),
+            'add_new'            => __('Add New', 'text-domain'),
+            'add_new_item'       => sprintf(__('Add New %s', 'text-domain'), $this->name),
+            'new_item'           => sprintf(__('New %s', 'text-domain'), $this->name),
+            'all_items'          => sprintf(__('All %ss', 'text-domain'), $this->name),
+            'not_found'          => sprintf(__('No %s found', 'text-domain'), $this->name),
+            'not_found_in_trash' => sprintf(__('No %s found in Trash', 'text-domain'), $this->name)
         );
 
         return array_merge($default, $this->labels);
