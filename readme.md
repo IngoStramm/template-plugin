@@ -2,7 +2,7 @@
 
 Modelo de desenvolvimento de plugin para o WordPress.
 
-### Description
+### Descrição
 
 Este é um modelo para desenvolvimento de plugin para o WordPress, com atualização automática integrada com o WordPress. Ele utiliza a biblioteca [Plugin Update Checker
 ](https://github.com/YahnisElsts/plugin-update-checker) para fazer a integração do Github com o WordPress.
@@ -25,7 +25,7 @@ Os seguintes prefixos foram usados e podem ser subsituídos através de um **sea
 - PREFIX_ (prefixo usado nas constantes de Url e diretório do plugin, além das classes)
 - prefix_ (prefixo usado nas funções)
 
-##### Obs: também é necessário renomear os arquivos .js e .css
+##### Obs: também é necessário renomear o diretório do plugin, o arquivo principal .php do plugin, os arquivos .js e .css
 
 ### Grunt
 
