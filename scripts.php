@@ -11,7 +11,7 @@ function tp_frontend_scripts()
         wp_enqueue_script('template-plugin-livereload', 'http://localhost:35729/livereload.js?snipver=1', array(), null, true);
     endif;
 
-    wp_register_script('template-plugin-script', TP_URL . 'assets/js/template-plugin' . $min . '.js', array('jquery', 'jquery-mask', 'jquery-cross-origin'), '1.0.0', true);
+    wp_register_script('template-plugin-script', TP_URL . 'assets/js/template-plugin' . $min . '.js', array('jquery'), '1.0.0', true);
     
     wp_enqueue_script('template-plugin-script');
     
