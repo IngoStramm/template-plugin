@@ -17,13 +17,12 @@ Navegue até o diretório `/src`, instale o gerenciador de pacotes do Node.js e 
 
 ### Nomes
 
-Os seguintes prefixos foram usados e podem ser subsituídos através de um **search and replace**:
+Os seguintes prefixos foram usados e podem ser subsituídos executando **search and replace**, buscando os seguintes termos (case sensitive):
 
 - Template Plugin (Nome do plugin)
-- template-plugin (nome dos arquivos e usado na url do repositório)
-- text-domain (text domain)
-- PREFIX_ (prefixo usado nas constantes de Url e diretório do plugin, além das classes)
-- prefix_ (prefixo usado nas funções)
+- template-plugin (nome dos arquivos, nome do text domain e slug da url do repositório)
+- YOUR_YOUR_PREFIX_ (prefixo usado nas constantes de Url e diretório do plugin, além das classes)
+- your_your_prefix_ (prefixo usado nas funções)
 
 ##### Obs: também é necessário renomear o diretório do plugin, o arquivo principal .php do plugin, os arquivos .js e .css
 
