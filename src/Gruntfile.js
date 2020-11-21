@@ -58,23 +58,6 @@ module.exports = function (grunt) {
             }
         },
 
-        // compile scss/sass files to CSS
-        // sass: {
-        //     dist: {
-        //         options: {
-        //             style: 'compressed',
-        //             sourcemap: 'none'
-        //         },
-        //         files: [{
-        //             expand: true,
-        //             cwd: '<%= dirs.sass %>',
-        //             src: ['*.scss'],
-        //             dest: '<%= dirs.css %>',
-        //             ext: '.css'
-        //         }]
-        //     }
-        // },
-
         // watch for changes and trigger sass, jshint, uglify and livereload browser
         watch: {
             sass: {
