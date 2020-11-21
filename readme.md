@@ -33,7 +33,7 @@ Estas são as tasks utilizadas:
 - `grunt`: task default - gera a versão minificada dos arquivos **.css** e **.js**
 - `grunt o`: otimiza as imagens
 - `grunt c`: executa as task anteriores e gera um arquivo **.zip** no diretório `/dist` (este será o arquivo usado para atualizar o plugin no Wordpress)
-- `grunt w`: executa o `livereload.js` - já vem com um array de IPs para funcionar apenas em ambiente de desenvolviemnto (adicione o seu IP no array, caso necessário)
+- `grunt w`: executa o `livereload.js` - já vem com um array de IPs para funcionar apenas em ambiente de desenvolvimento (adicione o seu IP no array, caso necessário)
 
 ### Includes
 
