@@ -24,7 +24,7 @@ Os seguintes prefixos foram usados e podem ser subsituídos executando **search 
 - YOUR_PREFIX_ (prefixo usado nas constantes de Url e diretório do plugin, além das classes)
 - your_prefix_ (prefixo usado nas funções)
 
-##### Obs: também é necessário renomear o diretório do plugin, o arquivo principal .php do plugin, os arquivos .js e .css
+##### Obs: também é necessário renomear o nome do diretório do plugin, o nome do arquivo principal .php do plugin, os nomes do arquivo .js e do arquivo .sass
 
 ### Grunt
 
