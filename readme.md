@@ -39,7 +39,7 @@ Estas são as tasks utilizadas:
 
 Neste modelo de plugin, já vem incluso as seguintes bibliotecas/módulos
 
-- [TGM Plugin Activation](http://tgmpluginactivation.com/): biblioteca para dependências de outros plugins do Wordpress - por padrão vem com o [CMB2](https://wordpress.org/plugins/cmb2/)
+- [WP Update Server](https://github.com/YahnisElsts/wp-update-server): API que verifica e aplica atualizações do Template Plugin, através do próprio sistema de atualizações do WordPress
 - `class-post-type.php`: classe para a criação de **Custom Post Type**
 - `class-taxonomy.php`: classe para a criação de **Custom Taxonomy**
 
