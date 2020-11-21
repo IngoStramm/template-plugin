@@ -12,8 +12,8 @@
 
 defined('ABSPATH') or die('No script kiddies please!');
 
-define('YOUR_YOUR_PREFIX_DIR', plugin_dir_path(__FILE__));
-define('YOUR_YOUR_PREFIX_URL', plugin_dir_url(__FILE__));
+define('YOUR_PREFIX_DIR', plugin_dir_path(__FILE__));
+define('YOUR_PREFIX_URL', plugin_dir_url(__FILE__));
 
 function your_prefix_debug($debug)
 {
