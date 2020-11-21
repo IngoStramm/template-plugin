@@ -45,4 +45,4 @@ Neste modelo de plugin, já vem incluso as seguintes bibliotecas/módulos
 
 ### Referências
 
-Parte do código usado neste plugin, foi retirado do [Odin Framework](https://github.com/wpbrasil/odin), o melhor tema-base de desenvolvimento para WordPress, desenvolvido e mantido pelo [WordPress Brasil](https://www.facebook.com/groups/wordpress.brasil).
+Parte do código usado neste plugin foi retirado do [Odin Framework](https://github.com/wpbrasil/odin), o melhor tema-base de desenvolvimento para WordPress, desenvolvido e mantido pelo [WordPress Brasil](https://www.facebook.com/groups/wordpress.brasil).
