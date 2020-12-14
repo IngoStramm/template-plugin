@@ -1,7 +1,7 @@
 <?php
 
 /**
- * COOPERMITI_Post_Type class.
+ * YOUR_PREFIX_Post_Type class.
  *
  * Built Custom Post Types.
  *
@@ -10,7 +10,7 @@
  * @author   WPBrasil
  * @version  2.1.4
  */
-class COOPERMITI_Post_Type
+class YOUR_PREFIX_Post_Type
 {
 
     /**
@@ -70,20 +70,20 @@ class COOPERMITI_Post_Type
     protected function labels()
     {
         $default = array(
-            'name'               => sprintf(__('%ss', 'coopermiti'), $this->name),
-            'singular_name'      => sprintf(__('%s', 'coopermiti'), $this->name),
-            'view_item'          => sprintf(__('View %s', 'coopermiti'), $this->name),
-            'edit_item'          => sprintf(__('Edit %s', 'coopermiti'), $this->name),
-            'search_items'       => sprintf(__('Search %s', 'coopermiti'), $this->name),
-            'update_item'        => sprintf(__('Update %s', 'coopermiti'), $this->name),
-            'parent_item_colon'  => sprintf(__('Parent %s:', 'coopermiti'), $this->name),
-            'menu_name'          => sprintf(__('%ss', 'coopermiti'), $this->name),
-            'add_new'            => __('Add New', 'coopermiti'),
-            'add_new_item'       => sprintf(__('Add New %s', 'coopermiti'), $this->name),
-            'new_item'           => sprintf(__('New %s', 'coopermiti'), $this->name),
-            'all_items'          => sprintf(__('All %ss', 'coopermiti'), $this->name),
-            'not_found'          => sprintf(__('No %s found', 'coopermiti'), $this->name),
-            'not_found_in_trash' => sprintf(__('No %s found in Trash', 'coopermiti'), $this->name)
+            'name'               => sprintf(__('%ss', 'template-plugin'), $this->name),
+            'singular_name'      => sprintf(__('%s', 'template-plugin'), $this->name),
+            'view_item'          => sprintf(__('View %s', 'template-plugin'), $this->name),
+            'edit_item'          => sprintf(__('Edit %s', 'template-plugin'), $this->name),
+            'search_items'       => sprintf(__('Search %s', 'template-plugin'), $this->name),
+            'update_item'        => sprintf(__('Update %s', 'template-plugin'), $this->name),
+            'parent_item_colon'  => sprintf(__('Parent %s:', 'template-plugin'), $this->name),
+            'menu_name'          => sprintf(__('%ss', 'template-plugin'), $this->name),
+            'add_new'            => __('Add New', 'template-plugin'),
+            'add_new_item'       => sprintf(__('Add New %s', 'template-plugin'), $this->name),
+            'new_item'           => sprintf(__('New %s', 'template-plugin'), $this->name),
+            'all_items'          => sprintf(__('All %ss', 'template-plugin'), $this->name),
+            'not_found'          => sprintf(__('No %s found', 'template-plugin'), $this->name),
+            'not_found_in_trash' => sprintf(__('No %s found in Trash', 'template-plugin'), $this->name)
         );
 
         return array_merge($default, $this->labels);

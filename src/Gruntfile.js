@@ -26,7 +26,7 @@ module.exports = function (grunt) {
             },
             all: [
                 'Gruntfile.js',
-                '<%= dirs.js %>/coopermiti.js'
+                '<%= dirs.js %>/template-plugin.js'
             ]
         },
 
@@ -34,8 +34,8 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 files: {
-                    '<%= dirs.js %>/coopermiti.min.js': [
-                        '<%= dirs.js %>/coopermiti.js'    // Custom JavaScript
+                    '<%= dirs.js %>/template-plugin.min.js': [
+                        '<%= dirs.js %>/template-plugin.js'    // Custom JavaScript
                     ]
                 }
             }
@@ -117,7 +117,7 @@ module.exports = function (grunt) {
                     '!<%= dirs.sass %>/**',
                     '!../**.zip',
                     '!../info.json',
-                    '<%= dirs.js %>/coopermiti.min.js'
+                    '<%= dirs.js %>/template-plugin.min.js'
                 ],
                 dest: '../dist/<%= pkg.name %>.zip'
             }
