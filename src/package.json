@@ -1,8 +1,8 @@
 {
-    "name": "template-plugin",
-    "description": "Descrição do Template Plugin.",
+    "name": "coopermiti",
+    "description": "Descrição do Coopermiti.",
     "version": "0.0.1",
-    "title": "Template Plugin",
+    "title": "Coopermiti",
     "homepage": "https://agencialaf.com",
     "main": "Gruntfile.js",
     "devDependencies": {
