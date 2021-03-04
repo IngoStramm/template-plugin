@@ -1,24 +1,24 @@
 {
-    "name": "Template Plugin",
+    "name": "Woocommerce Skip Cart",
     "version": "0.0.1",
-    "download_url": "https://github.com/IngoStramm/template-plugin/raw/master/dist/template-plugin.zip",
+    "download_url": "https://github.com/IngoStramm/wc-skip-cart/raw/master/dist/wc-skip-cart.zip",
     "homepage": "https://agencialaf.com",
     "requires": "4.7",
-    "tested": "5.5",
+    "tested": "5.6",
     "last_updated": "2020-09-01 15:30:00",
-    "upgrade_notice": "Atualização do Template Plugin disponível",
+    "upgrade_notice": "Atualização do Woocommerce Skip Cart disponível",
     "author": "Ingo Stramm",
     "author_homepage": "https://agencialaf.com",
     "sections": {
-        "description": "Descrição do Template Plugin.",
+        "description": "Descrição do Woocommerce Skip Cart.",
         "installation": "A instalação deste plugin deve ser feita pelo Converte Fácil."
     },
     "icons": {
-        "1x": "https://github.com/IngoStramm/template-plugin/raw/master/assets/images/plugin-banner-128x128.jpg",
-        "2x": "https://github.com/IngoStramm/template-plugin/raw/master/assets/images/plugin-banner-256x256.jpg"
+        "1x": "https://github.com/IngoStramm/wc-skip-cart/raw/master/assets/images/plugin-banner-128x128.jpg",
+        "2x": "https://github.com/IngoStramm/wc-skip-cart/raw/master/assets/images/plugin-banner-256x256.jpg"
     },
     "banners": {
-        "low": "https://github.com/IngoStramm/template-plugin/raw/master/assets/images/plugin-banner-772x250.jpg",
-        "high": "https://github.com/IngoStramm/template-plugin/raw/master/assets/images/plugin-banner-1544x500.jpg"
+        "low": "https://github.com/IngoStramm/wc-skip-cart/raw/master/assets/images/plugin-banner-772x250.jpg",
+        "high": "https://github.com/IngoStramm/wc-skip-cart/raw/master/assets/images/plugin-banner-1544x500.jpg"
     }
 }
