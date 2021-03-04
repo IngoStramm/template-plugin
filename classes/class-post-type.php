@@ -1,7 +1,7 @@
 <?php
 
 /**
- * WC_SKIP_CART_Post_Type class.
+ * YOUR_PREFIX_Post_Type class.
  *
  * Built Custom Post Types.
  *
@@ -10,7 +10,7 @@
  * @author   WPBrasil
  * @version  2.1.4
  */
-class WC_SKIP_CART_Post_Type
+class YOUR_PREFIX_Post_Type
 {
 
     /**
@@ -70,20 +70,20 @@ class WC_SKIP_CART_Post_Type
     protected function labels()
     {
         $default = array(
-            'name'               => sprintf(__('%ss', 'wc-skip-cart'), $this->name),
-            'singular_name'      => sprintf(__('%s', 'wc-skip-cart'), $this->name),
-            'view_item'          => sprintf(__('View %s', 'wc-skip-cart'), $this->name),
-            'edit_item'          => sprintf(__('Edit %s', 'wc-skip-cart'), $this->name),
-            'search_items'       => sprintf(__('Search %s', 'wc-skip-cart'), $this->name),
-            'update_item'        => sprintf(__('Update %s', 'wc-skip-cart'), $this->name),
-            'parent_item_colon'  => sprintf(__('Parent %s:', 'wc-skip-cart'), $this->name),
-            'menu_name'          => sprintf(__('%ss', 'wc-skip-cart'), $this->name),
-            'add_new'            => __('Add New', 'wc-skip-cart'),
-            'add_new_item'       => sprintf(__('Add New %s', 'wc-skip-cart'), $this->name),
-            'new_item'           => sprintf(__('New %s', 'wc-skip-cart'), $this->name),
-            'all_items'          => sprintf(__('All %ss', 'wc-skip-cart'), $this->name),
-            'not_found'          => sprintf(__('No %s found', 'wc-skip-cart'), $this->name),
-            'not_found_in_trash' => sprintf(__('No %s found in Trash', 'wc-skip-cart'), $this->name)
+            'name'               => sprintf(__('%ss', 'template-plugin'), $this->name),
+            'singular_name'      => sprintf(__('%s', 'template-plugin'), $this->name),
+            'view_item'          => sprintf(__('View %s', 'template-plugin'), $this->name),
+            'edit_item'          => sprintf(__('Edit %s', 'template-plugin'), $this->name),
+            'search_items'       => sprintf(__('Search %s', 'template-plugin'), $this->name),
+            'update_item'        => sprintf(__('Update %s', 'template-plugin'), $this->name),
+            'parent_item_colon'  => sprintf(__('Parent %s:', 'template-plugin'), $this->name),
+            'menu_name'          => sprintf(__('%ss', 'template-plugin'), $this->name),
+            'add_new'            => __('Add New', 'template-plugin'),
+            'add_new_item'       => sprintf(__('Add New %s', 'template-plugin'), $this->name),
+            'new_item'           => sprintf(__('New %s', 'template-plugin'), $this->name),
+            'all_items'          => sprintf(__('All %ss', 'template-plugin'), $this->name),
+            'not_found'          => sprintf(__('No %s found', 'template-plugin'), $this->name),
+            'not_found_in_trash' => sprintf(__('No %s found in Trash', 'template-plugin'), $this->name)
         );
 
         return array_merge($default, $this->labels);

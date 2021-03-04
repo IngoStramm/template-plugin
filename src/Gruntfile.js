@@ -26,7 +26,7 @@ module.exports = function (grunt) {
             },
             all: [
                 'Gruntfile.js',
-                '<%= dirs.js %>/wc-skip-cart.js'
+                '<%= dirs.js %>/template-plugin.js'
             ]
         },
 
@@ -34,8 +34,8 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 files: {
-                    '<%= dirs.js %>/wc-skip-cart.min.js': [
-                        '<%= dirs.js %>/wc-skip-cart.js'    // Custom JavaScript
+                    '<%= dirs.js %>/template-plugin.min.js': [
+                        '<%= dirs.js %>/template-plugin.js'    // Custom JavaScript
                     ]
                 }
             }
@@ -117,7 +117,7 @@ module.exports = function (grunt) {
                     '!<%= dirs.sass %>/**',
                     '!../**.zip',
                     '!../info.json',
-                    '<%= dirs.js %>/wc-skip-cart.min.js'
+                    '<%= dirs.js %>/template-plugin.min.js'
                 ],
                 dest: '../dist/<%= pkg.name %>.zip'
             }

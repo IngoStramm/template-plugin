@@ -1,8 +1,8 @@
 {
-    "name": "wc-skip-cart",
-    "description": "Descrição do Woocommerce Skip Cart.",
+    "name": "template-plugin",
+    "description": "Descrição do Template Plugin.",
     "version": "0.0.1",
-    "title": "Woocommerce Skip Cart",
+    "title": "Template Plugin",
     "homepage": "https://agencialaf.com",
     "main": "Gruntfile.js",
     "devDependencies": {
