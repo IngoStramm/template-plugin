@@ -10,3 +10,4 @@ src/.sass-cache
 *.tar.gz
 .editorconfig
 .distignore
+.vscode
