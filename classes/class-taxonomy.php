@@ -1,7 +1,7 @@
 <?php
 
 /**
- * IPF_Taxonomy class.
+ * YOUR_PREFIX_Taxonomy class.
  *
  * Built Custom Taxonomies.
  *
@@ -10,7 +10,7 @@
  * @author   WPBrasil
  * @version  2.1.4
  */
-class IPF_Taxonomy
+class YOUR_PREFIX_Taxonomy
 {
 
     /**
@@ -72,21 +72,21 @@ class IPF_Taxonomy
     protected function labels()
     {
         $default = array(
-            'name'                       => sprintf(__('%ss', 'integracao-playfab'), $this->name),
-            'singular_name'              => sprintf(__('%s', 'integracao-playfab'), $this->name),
-            'add_or_remove_items'        => sprintf(__('Add or Remove %ss', 'integracao-playfab'), $this->name),
-            'view_item'                  => sprintf(__('View %s', 'integracao-playfab'), $this->name),
-            'edit_item'                  => sprintf(__('Edit %s', 'integracao-playfab'), $this->name),
-            'search_items'               => sprintf(__('Search %s', 'integracao-playfab'), $this->name),
-            'update_item'                => sprintf(__('Update %s', 'integracao-playfab'), $this->name),
-            'parent_item'                => sprintf(__('Parent %s:', 'integracao-playfab'), $this->name),
-            'parent_item_colon'          => sprintf(__('Parent %s:', 'integracao-playfab'), $this->name),
-            'menu_name'                  => sprintf(__('%ss', 'integracao-playfab'), $this->name),
-            'add_new_item'               => sprintf(__('Add New %s', 'integracao-playfab'), $this->name),
-            'new_item_name'              => sprintf(__('New %s', 'integracao-playfab'), $this->name),
-            'all_items'                  => sprintf(__('All %ss', 'integracao-playfab'), $this->name),
-            'separate_items_with_commas' => sprintf(__('Separate %ss with comma', 'integracao-playfab'), $this->name),
-            'choose_from_most_used'      => sprintf(__('Choose from %ss most used', 'integracao-playfab'), $this->name)
+            'name'                       => sprintf(__('%ss', 'template-plugin'), $this->name),
+            'singular_name'              => sprintf(__('%s', 'template-plugin'), $this->name),
+            'add_or_remove_items'        => sprintf(__('Add or Remove %ss', 'template-plugin'), $this->name),
+            'view_item'                  => sprintf(__('View %s', 'template-plugin'), $this->name),
+            'edit_item'                  => sprintf(__('Edit %s', 'template-plugin'), $this->name),
+            'search_items'               => sprintf(__('Search %s', 'template-plugin'), $this->name),
+            'update_item'                => sprintf(__('Update %s', 'template-plugin'), $this->name),
+            'parent_item'                => sprintf(__('Parent %s:', 'template-plugin'), $this->name),
+            'parent_item_colon'          => sprintf(__('Parent %s:', 'template-plugin'), $this->name),
+            'menu_name'                  => sprintf(__('%ss', 'template-plugin'), $this->name),
+            'add_new_item'               => sprintf(__('Add New %s', 'template-plugin'), $this->name),
+            'new_item_name'              => sprintf(__('New %s', 'template-plugin'), $this->name),
+            'all_items'                  => sprintf(__('All %ss', 'template-plugin'), $this->name),
+            'separate_items_with_commas' => sprintf(__('Separate %ss with comma', 'template-plugin'), $this->name),
+            'choose_from_most_used'      => sprintf(__('Choose from %ss most used', 'template-plugin'), $this->name)
         );
 
         return array_merge($default, $this->labels);

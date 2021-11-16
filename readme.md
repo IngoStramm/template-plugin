@@ -1,4 +1,4 @@
-# Integração Playfab
+# Template Plugin
 
 Modelo de desenvolvimento de plugin para o WordPress.
 
@@ -19,10 +19,10 @@ Navegue até o diretório `/src`, instale o gerenciador de pacotes do Node.js e 
 
 Os seguintes prefixos foram usados e podem ser subsituídos executando **search and replace**, buscando os seguintes termos (case sensitive):
 
-- Integração Playfab (Nome do plugin)
-- integracao-playfab (nome dos arquivos, nome do text domain e slug da url do repositório)
-- IPF_ (prefixo usado nas constantes de Url e diretório do plugin, além das classes)
-- ipf_ (prefixo usado nas funções)
+- Template Plugin (Nome do plugin)
+- template-plugin (nome dos arquivos, nome do text domain e slug da url do repositório)
+- YOUR_PREFIX_ (prefixo usado nas constantes de Url e diretório do plugin, além das classes)
+- your_prefix_ (prefixo usado nas funções)
 
 ##### Obs: também é necessário renomear o nome do diretório do plugin, o nome do arquivo principal .php do plugin, os nomes do arquivo .js e do arquivo .sass
 
@@ -39,7 +39,7 @@ Estas são as tasks utilizadas:
 
 Neste modelo de plugin, já vem incluso as seguintes bibliotecas/módulos
 
-- [WP Update Server](https://github.com/YahnisElsts/wp-update-server): API que verifica e aplica atualizações do Integração Playfab, através do próprio sistema de atualizações do WordPress
+- [WP Update Server](https://github.com/YahnisElsts/wp-update-server): API que verifica e aplica atualizações do Template Plugin, através do próprio sistema de atualizações do WordPress
 - `class-post-type.php`: classe para a criação de **Custom Post Type**
 - `class-taxonomy.php`: classe para a criação de **Custom Taxonomy**
 

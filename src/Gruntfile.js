@@ -26,7 +26,7 @@ module.exports = function (grunt) {
             },
             all: [
                 'Gruntfile.js',
-                '<%= dirs.js %>/integracao-playfab.js'
+                '<%= dirs.js %>/template-plugin.js'
             ]
         },
 
@@ -34,8 +34,8 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 files: {
-                    '<%= dirs.js %>/integracao-playfab.min.js': [
-                        '<%= dirs.js %>/integracao-playfab.js'    // Custom JavaScript
+                    '<%= dirs.js %>/template-plugin.min.js': [
+                        '<%= dirs.js %>/template-plugin.js'    // Custom JavaScript
                     ]
                 }
             }
@@ -44,7 +44,7 @@ module.exports = function (grunt) {
         sass: {
             options: {
                 implementation: sass,
-                // sourceMap: true,
+                sourceMap: true,
                 style: 'compressed'
             },
             dist: {
@@ -117,7 +117,7 @@ module.exports = function (grunt) {
                     '!<%= dirs.sass %>/**',
                     '!../**.zip',
                     '!../info.json',
-                    '<%= dirs.js %>/integracao-playfab.min.js'
+                    '<%= dirs.js %>/template-plugin.min.js'
                 ],
                 dest: '../dist/<%= pkg.name %>.zip'
             }
