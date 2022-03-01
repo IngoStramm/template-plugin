@@ -3,21 +3,18 @@
 	"curly": true,
 	"eqeqeq": true,
 	"eqnull": true,
-    "es3": false,
     "esversion": 6,
 	"expr": true,
-	"immed": true,
 	"noarg": true,
-	"onevar": true,
-	"quotmark": "single",
-	"trailing": true,
 	"undef": false,
 	"unused": false,
 
 	"browser": true,
-
+    "devel": {
+        "console": true,
+        "alert" : true
+    },
 	"globals": {
-		"console": true,
 		"_": false,
 		"Backbone": false,
 		"jQuery": false,
